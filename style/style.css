@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+    font-family: "Gilroy ExtraBold";
+}
+
+header{
+    background: url(../img/bgc.png) center/cover;
+    max-width: 1920px;
+    height: 950px;
+}
+
+.header_list{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.header_list1{
+    display: flex;
+    margin-top: 12px;
+    list-style: none;
+}
+
+.header_list1 li a{
+    font-family: "Gilroy ExtraBold";
+    margin-left: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_list_img{
+    margin-left: 40px;
+}
+
+.header_list2{
+    display: flex;
+    margin-top: 12px;
+    list-style: none;
+}
+
+.header_list2 li a{
+    font-family: "Gilroy ExtraBold";
+    margin-left: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_list3{
+    margin-top: 523px;
+    text-align: center;
+}
+
+.header_list3 p{
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.header_list3 a{
+    font-family: "Gilroy ExtraBold";
+    display: flex;
+    background: #333333;
+    width: 261px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header_list4{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.header_list5{
+    margin-top: 80px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.header_list6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.header_shit{
+    border-right: 1px solid #FFFFFF;
+}
+
+.main_shit{
+    margin-top: 100px;
+}
+
+.main_shit h4{
+    font-family: "Gilroy ExtraBold";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #333333;
+    text-align: center;
+}
+
+.main_shit h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #333333;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main_shit ul{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.main_shit ul li a{
+    display: flex;
+    background: #F9F9F9;
+    border: 1px solid #D6D6D6;
+    width: 165px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: "Gilroy ExtraBold";
+    text-decoration: none;
+    color: #333333;
+}
+
+.main_shit_img{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+}
+
+.neor{
+    display: flex;
+    background: #333333;
+    width: 165px;
+    height: 55px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_list{
+    background: url(../img/kkkkkkkkkk.png) center/cover;
+    max-width: 1920px;
+    height: 541px;
+    padding-top: 120px;
+}
+
+.main_list h4{
+    font-family: "Gilroy ExtraBold";
+    padding-top: 100px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main_list h3{
+    font-family: 'Noto Serif', serif;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main_list h5{
+    font-family: "Gilroy ExtraBold";
+    padding-top: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main_list ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main_list ul li a{
+    font-family: "Gilroy ExtraBold";
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    width: 224px;
+    height: 51px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500; 
+    line-height: 21px; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main_case{
+    padding-top: 120px;
+}
+
+.main_case h4{
+    font-family: "Gilroy ExtraBold";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #333333;
+    text-align: center;
+}
+
+.main_case h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #333333;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main_img{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.main_case ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main_case ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    width: 255px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+.main_case h5{
+    font-family: "Gilroy ExtraBold";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #333333;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.main_case h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #333333;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.efry{
+
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_hep{
+    background: url(../img/iiiiiiii.png) center/cover;
+    max-width: 1920px;
+    height: 478px;
+    margin-top: 150px;
+}
+
+.main_hep h4{
+    font-family: "Gilroy ExtraBold";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main_hep h2{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main_hep1{
+    display: flex;
+}
+
+.main_plez{
+    margin-left: 400px;
+    margin-top: 63px;
+}
+
+.main_plez1{
+    display: flex;
+    color: #FFFFFF;
+}
+
+.main_plez1 a{
+    margin-top: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.main_plez1 i{
+    margin-right: 20px;
+    margin-top: 23px;
+}
+
+.main_plez2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 95px;
+    background: #FFFFFF;
+    width: 418px;
+    height: 85px;
+}
+
+
+.main_plez2 input{
+    width: 200px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.main_plez2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: 159px;
+    height: 45px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.footer_list{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_list1 h5{
+    font-family: "Gilroy ExtraBold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+.footer_list1 div a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+}
+
+.footer_list2{
+    margin-left: 30px;
+}
+
+.footer_list2 h1{
+    font-family: "Gilroy ExtraBold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+.footer_list2 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+}
+
+.footer_list2 div img{
+    margin-top: 21px;
+}
+
+.footer_list3 h1{
+    font-family: "Gilroy ExtraBold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+.footer_list4{
+    display: flex;
+}
+
+.footer_icon i{
+   display: flex;
+   flex-direction: column;
+   margin-top: 19px; 
+   margin-right: 20px;
+}
+
+.footer_number a{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+}
+
+
+.footer_list5 h1{
+    font-family: "Gilroy ExtraBold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+.footer_list5 div a{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+}
+
+.footer_list5 div i{
+    margin-top: 27px;
+    margin-right: 21px;
+}
+
+
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #333333;
+    margin-top: 60px;
+}
+
+.footer_end p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+    padding-top: 20px;
+}
+
+
